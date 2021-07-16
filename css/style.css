@@ -21,7 +21,7 @@
 }
 header{
     height: 70px;
-    width: calc(100% - 150px);
+    width: calc(100% - 200px);
     position: fixed;
     top: 0;
     right: 0;
@@ -34,7 +34,7 @@ main{
     display: flex;
 }
 aside{
-    width: 150px;
+    width: 200px;
     background-color: black;
 }
 .margin-aside{
@@ -60,10 +60,10 @@ aside h3{
     font-weight: bold;
     display: inline-block;
 }
-.playlist{
+
+.playlist ul {
     overflow-y: auto;
-    /* display: flex;
-    flex-grow: 1; */
+    
 }
 .img-user{
     height: 20px;
@@ -75,11 +75,39 @@ aside h3{
 }
 .main-box{
     
-    width: calc(100% - 150px);
+    width: calc(100% - 200px);
     background-color: #141922;
     overflow-y: auto;
     margin-top: 70px;
     margin-bottom: 50px;
+    margin: 70px 0 50px 0;
+    padding: 0 20px 0 20px;
+}
+.margin-mid{
+    margin-top: 15px;
+}
+.margin-mainbox{
+    margin-top: 30px;
+}
+.galleria div img{
+    width: 100%;
+}
+.padding-img{
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.titoli{
+    text-align: center;
+    margin: 5px;
+}
+.sottotitoli{
+    margin-top: 5px;
+
+}
+.circle-img{
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
 }
 footer{
     position: fixed;
