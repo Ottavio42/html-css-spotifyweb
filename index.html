@@ -20,30 +20,40 @@
             <div class="bottone"><a href="#">EFFETTUA L'UPGRADE</a></div>
         </header>
         <aside>
-            <div class="img"><img src="img/logo.svg" alt=""></div>
-            <ul class="margin-aside">
-                <li><img src="img/home.svg" alt=""> <span>Home</span> </li>
-                <li><img src="img/search.svg" alt="">  <span>Cerca</span></li>
-                <li> <img src="img/libreria.svg" alt=""> <span>La tua libreria</span></li>
-            </ul>
-            <div class="playlist">
-                <h3 class="margin-aside">PLAYLIST</h3>
-                <div class="piu-playlist margin-aside">+</div>
-                <span>Crea Playlist</span>
+            <div class="container-aside flex">
+                <div class="img"><img src="img/logo.svg" alt="">
+                </div>
+
                 <ul class="margin-aside">
-                    <li><span>Nome Playlist</span></li>
-                    <li><span>Nome Playlist</span></li>
-                    <li><span>Nome Playlist</span></li>
-                    <li><span>Nome Playlist</span></li>
-                    <li><span>Nome Playlist</span></li>
-                    <li><span>Nome Playlist</span></li>
-                    <li><span>Nome Playlist</span></li>
+                    <li><img src="img/home.svg" alt=""> <span>Home</span> </li>
+                    <li><img src="img/search.svg" alt="">  <span>Cerca</span></li>
+                    <li> <img src="img/libreria.svg" alt=""> <span>La tua libreria</span></li>
                 </ul>
+                <div class="playlist">
+                    <h3 class="margin-aside">PLAYLIST</h3>
+                    <div class="piu-playlist margin-aside">+</div>
+                 <span>Crea Playlist</span>
+                    <ul class="margin-aside">
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="download">
+                        <i class="far fa-arrow-alt-circle-down"></i> Download
+                    </div>
+                    <div class="user">
+                        <img class="img-user" src="img/profile.svg" alt="">
+                    </div>
+                </div>
             </div>
-            <div>
-                <i class="far fa-arrow-alt-circle-down"></i> Download
-            </div>
-            <div class="img-user"><img src="img/profile.svg" alt=""></div>
+            
+            
         </aside>
         <div class="main-box">
             <!-- NAVIGATOR -->
@@ -142,6 +152,7 @@
                 </div>
         </div>
     </main>
+        <!-- FOOTER -->
     <footer>
         <div class="row">
             <div class="col-lg-2">
@@ -157,8 +168,49 @@
                 </div>
                 
             </div>
-            <div class="col-lg-4 set-offset-lg-2"></div>
-            <div class="col-lg-2 set-offset-lg-2"></div>
+            <!-- FOOTER CENTRALE -->
+            <div class="col-lg-5 set-offset-lg-2 ">
+                <div class="media-player-top">
+                    <div class="row">
+                        <div class="col-lg-6 set-offset-lg-3 flex space-between">
+                             <i class="fas fa-random"></i>
+                             <i class="fas fa-step-backward"></i>
+                             <i class="far fa-play-circle"></i>
+                             <i class="fas fa-step-forward"></i>
+                             <i class="fas fa-redo-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="media-player-bottom">
+                    <div class="row">
+                        <div class="col-lg-1">
+                            <span>0.25</span>
+                        </div>
+                        <div class="col-lg-10">
+                            <div class="bar-player">
+                                <div class="colorizebar-player"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-1 ">
+                            <span>4.35</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FOOTER DESTRO -->
+            <div class="col-lg-2 set-offset-lg-1 flex box-volume">
+                <div class="pulsanti-volume flex space-between">
+                    <i class="fas fa-list-ul"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fas fa-volume-up"></i>
+                </div>
+                <div class="barra-volume">
+                    <div class="bar-player">
+                        <div class="colorizebar-player"></div>
+                    </div>
+                </div>
+                
+            </div>
         </div>
     </footer>
 </body>
