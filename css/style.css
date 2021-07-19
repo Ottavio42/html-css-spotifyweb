@@ -81,6 +81,7 @@ aside h3{
     background-color: #ffffff;
     font-weight: bold;
     display: inline-block;
+
 }
 
 .playlist ul {
@@ -89,6 +90,7 @@ aside h3{
 .playlist{
     overflow: hidden;
     flex-grow: 1;
+    margin-top: 10px;
 }
 .img-user{
     height: 20px;
@@ -165,7 +167,7 @@ footer{
     
 }
 .footer-sx, .footer-dx{
-    width: 20%;
+    width: 25%;
 }
 .footer-cen{
     width: 40%;
@@ -184,9 +186,12 @@ footer{
     height: 40px;
 }
 .media-player-top{
+    margin: auto;
     justify-content: space-between;
-    font-size: 15px;
+    width: 60%;
+    font-size: 14px;
     height: 50%;
+    align-items: center;
 }
 .scale{
     transform: scale(1.3);
@@ -194,11 +199,12 @@ footer{
 
 .media-player-bottom{
     height: 50%;
+    align-items: center;
 }
 .bar-player{
   
     height: 5px;
-    width: 70%;
+    width: 60%;
     background-color: #5a5a5a;
 }
 .colorizebar-player{
@@ -206,14 +212,15 @@ footer{
     height: 5px;
     background-color: #ffffff;
 }
-.footer-cen .media-player-bottom .bar-player {
-    margin-top: 5px;
-}
+
 .space-between{
     justify-content: space-between;
 }
 .media-player-bottom .row .col-lg-1{
     font-size: 14px;
+}
+.tempo-song{
+    font-size: 12px;
 }
 
 
@@ -222,6 +229,7 @@ footer{
 }
 .footer-dx{
     align-items: center;
+    font-size: 12px;
 }
 h4{
     font-size: 10px;
