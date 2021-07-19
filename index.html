@@ -17,14 +17,17 @@
 <body>
     <main>
         <header>
-            <div class="bottone"><a href="#">EFFETTUA L'UPGRADE</a></div>
+            <div class="bottone "><a href="#">EFFETTUA L'UPGRADE</a></div>
         </header>
         <aside>
             <div class="container-aside flex">
-                <div class="img"><img src="img/logo.svg" alt="">
+                <div class="img">
+                    <img class="logo" src="img/logo.svg" alt="">
+                    <img class="logo-small" src="img/logo-small.svg" alt="">
+
                 </div>
 
-                <ul class="margin-aside opacity">
+                <ul class="padding-aside opacity link">
                     <li><img src="img/home.svg" alt=""> <span>Home</span> </li>
                     <li><img src="img/search.svg" alt="">  <span>Cerca</span></li>
                     <li> <img src="img/libreria.svg" alt=""> <span>La tua libreria</span></li>
@@ -43,9 +46,9 @@
                         <li><span>Nome Playlist</span></li>
                     </ul>
                 </div>
-                <div>
+                <div class="bottom-aside ">
                     <div class="download opacity">
-                        <i class="far fa-arrow-alt-circle-down"></i> Download
+                        <i class="far fa-arrow-alt-circle-down"></i> <span> Download</span>
                     </div>
                     <div class="user">
                         <img class="img-user" src="img/profile.svg" alt="">
@@ -57,16 +60,16 @@
         </aside>
         <div class="main-box">
             <!-- NAVIGATOR -->
-            <nav class="margin-mid">
+            <nav class="">
                 <div class="row">
-                    <div class="col-lg-8 set-offset-lg-2">
+                    <div class="col-lg-8 set-offset-lg-2 col-xs-12 ">
                         <div class="row opacity text-nav">
-                            <div class="col-lg-2">IN EVIDENZA</div>
-                            <div class="col-lg-2">PODCAST</div>
-                            <div class="col-lg-2">CLASSIFICHE</div>
-                            <div class="col-lg-2">GENERI E MOOD</div>
-                            <div class="col-lg-2">NUOVE USCITE</div>
-                            <div class="col-lg-2">SCOPRI</div>
+                            <div class="col-md-2 col-s-4 col-xs-3 margin-mid ">IN EVIDENZA</div>
+                            <div class="col-md-2 col-s-4 col-xs-3 margin-mid">PODCAST</div>
+                            <div class="col-md-2 col-s-4 col-xs-3 margin-mid">CLASSIFICHE</div>
+                            <div class="col-md-2 col-s-4 col-xs-3 margin-mid">GENERI E MOOD</div>
+                            <div class="col-md-2 col-s-4 col-xs-6 margin-mid">NUOVE USCITE</div>
+                            <div class="col-md-2 col-s-4 col-xs-6 margin-mid">SCOPRI</div>
                         </div>
                     </div>
                     
@@ -74,143 +77,133 @@
             </nav >
                 <!-- ASCOLTATI DI RECENTE -->
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-xs-12">
                         <h2 class="margin-mainbox">Recently Played</h2>
                     </div>
                 </div>
                 <div class="row galleria margin-mainbox">
-                    <div class="col-lg-2 padding-img">
-                        <img src="img/aquietplace.jpeg" alt="">
+                    <div class="col-lg-2 col-md-3 col-xs-6 padding-img">
+                        <img src="img/metal_lifting.jpg" alt="">
                         <h3>Heavy Metal</h3>
                         <div class="sottotitoli opacity">Subtitle</div>
                     </div>
-                    <div class="col-lg-2 padding-img">
-                        <img src="img/aquietplace.jpeg" alt="">
+                    <div class="col-lg-2 col-md-3 col-xs-6 padding-img">
+                        <img src="img/stranger.jpeg" alt="">
                         <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack</h3>
                         <div class="sottotitoli opacity">Kyle Dixon & Michael Stain</div>
                     </div>
-                    <div class="col-lg-2 padding-img">
+                    <div class="col-lg-2 col-md-3 col-xs-6 padding-img">
                         <img src="img/aquietplace.jpeg" alt="">
                         <h3>A quiet place</h3>
                         <div class="sottotitoli opacity">subtitle</div>
                     </div>
-                    <div class="col-lg-2 padding-img">
-                        <img src="img/aquietplace.jpeg" alt="">
+                    <div class="col-lg-2 col-md-3 col-xs-6 padding-img">
+                        <img src="img/split.jpeg" alt="">
                         <h3>Spilt</h3>
                         <div class="sottotitoli opacity">subtitle</div>
                     </div>
-                    <div class="col-lg-2 padding-img">
-                        <img src="img/aquietplace.jpeg" alt="">
+                    <div class="col-lg-2 col-md-3 col-xs-6 padding-img">
+                        <img src="img/cure.jpeg" alt="">
                         <h3>A cure of wellness</h3>
                         <div class="sottotitoli opacity">Subtitle</div>
                     </div>
-                    <div class="col-lg-2 padding-img">
-                        <img src="img/aquietplace.jpeg" alt="">
+                    <div class="col-lg-2 col-md-3 col-xs-6 padding-img">
+                        <img src="img/sinister.jpeg" alt="">
                         <h3>Sinister</h3>
                         <div class="sottotitoli opacity">Subtitle</div>
                     </div>
                 </div>
                 <!-- CREATO PER TE -->
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-xs-12">
                         <h2 class="margin-mid"> Creato per Ottavio Giudici</h2>
                         <div class="sottotitoli opacity">Più ascolti, più saranno accurati i suggrimenti</div>
                     </div>
                 </div>
                 <div class="row galleria margin-mainbox">
-                    <div class="col-lg-2 padding-img"><img src="img/aquietplace.jpeg" alt=""></div>
-                <div class="col-lg-2 padding-img"><img src="img/aquietplace.jpeg" alt=""></div>
-                </div>
-                <div class="row titoli">
-                    <div class="col-lg-2 padding-img">
+                    <div class="col-lg-2 col-md-3 col-xs-6 padding-img">
+                        <img src="img/player_left.jpg" alt="">
                         <h3>Release Radar</h3>
                     </div>
-                    <div class="col-lg-2 padding-img">
+                    <div class="col-lg-2 col-md-3 col-xs-6 padding-img">
+                        <img src="img/mixdaily.jpeg" alt="">
                         <h3>Daily Mix1</h3>
                     </div>
                 </div>
+                
                 <!-- ARTISTI PIU POPOLARI -->
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-xs-12">
                         <h2 class="margin-mid"> Artisti più popolari</h2>
-                        <div class="sottotitoli">Più ascolti, più saranno accurati i suggrimenti</div>
+                        <div class="sottotitoli opacity">Più ascolti, più saranno accurati i suggrimenti</div>
                     </div>
                 </div>
                 <div class="row galleria margin-mainbox ">
-                    <div class="col-lg-2 circle-img"><img src="img/einaudi.jpeg" alt=""></div>
-                <div class="col-lg-2  circle-img"><img src="img/einaudi.jpeg" alt=""></div>
-                </div>
-                <div class="row titoli">
-                    <div class="col-lg-2 padding-img">
-                        <h3>Lana del Rey</h3>
+                    <div class="col-lg-2 col-md-3 col-xs-6 padding-img ">
+                        <img class="circle-img" src="img/youg.jpeg" alt="">
+                        <h3 class="titoli">Lana del Rey</h3>
                     </div>
-                    <div class="col-lg-2 padding-img">
-                        <h3>Einaudi</h3>
+                    <div class="col-lg-2 col-md-3 col-xs-6 padding-img ">
+                        <img class="circle-img" src="img/einaudi.jpeg" alt="">
+                        <h3 class="titoli">Einaudi</h3>
                     </div>
                 </div>
+                
         </div>
     </main>
         <!-- FOOTER -->
     <footer>
-        <div class="row">
-            <div class="col-lg-2">
-                <div class="flex footer-sx">
-                    <img class="img-footer" src="img/sinister.jpeg" alt="">
-                <div>
-                    <h4>Sinister</h4>
-                    <span class="opacity">Brano nome</span>
-                </div>
-                <div class="simboli-foot opacity">
-                    <i class="far fa-heart"></i> 
-                    <i class="far fa-folder"></i>
-                </div>
+        <div class="container-footer flex space-between ">
+            <div class="footer-sx ">
+                <div class="box-footer-sx flex">
+                    <div class="flex">
+                        <img class="img-footer" src="img/sinister.jpeg" alt="">
+                        <div class="titolo-riproduzione">
+                            <h4>Sinister</h4>
+                             <span class="opacity">Brano nome</span>
+                        </div>
+                    </div>
+                    <div class="simboli-foot opacity">
+                        <i class="far fa-heart"></i> 
+                        <i class="far fa-folder"></i>
+                    </div>
                 </div>
                 
             </div>
-            <!-- FOOTER CENTRALE -->
-            <div class="col-lg-5 set-offset-lg-2 ">
-                <div class="media-player-top">
-                    <div class="row">
-                        <div class="col-lg-6 set-offset-lg-3 flex space-between">
-                             <i class="fas fa-random"></i>
-                             <i class="fas fa-step-backward"></i>
-                             <i class="far fa-play-circle"></i>
-                             <i class="fas fa-step-forward"></i>
-                             <i class="fas fa-redo-alt"></i>
-                        </div>
-                    </div>
+                <!-- FOOTER-CEN -->
+            <div class="footer-cen">
+                <div class="media-player-top flex space-between">
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-step-backward"></i>
+                    <i class="far fa-play-circle scale"></i>
+                    <i class="fas fa-step-forward"></i>
+                    <i class="fas fa-redo-alt"></i>
                 </div>
-                <div class="media-player-bottom">
-                    <div class="row">
-                        <div class="col-lg-1">
-                            <span>0.25</span>
-                        </div>
-                        <div class="col-lg-10">
-                            <div class="bar-player">
-                                <div class="colorizebar-player"></div>
-                            </div>
-                        </div>
-                        <div class="col-lg-1 ">
-                            <span>4.35</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- FOOTER DESTRO -->
-            <div class="col-lg-2 set-offset-lg-1 flex box-volume">
-                <div class="pulsanti-volume flex space-between">
-                    <i class="fas fa-list-ul"></i>
-                    <i class="fas fa-desktop"></i>
-                    <i class="fas fa-volume-up"></i>
-                </div>
-                <div class="barra-volume">
+                <div class="media-player-bottom flex space-between">
+                    <span>0.25</span>
                     <div class="bar-player">
                         <div class="colorizebar-player"></div>
                     </div>
+                    <span>4.35</span>
                 </div>
-                
             </div>
+            <div class="footer-dx flex space-between">
+                <i class="fas fa-list-ul"></i>
+                <i class="fas fa-desktop"></i>
+                <i class="fas fa-volume-up"></i>
+                <div class="bar-player">
+                    <div class="colorizebar-player"></div>
+                </div>
+            </div>
+            
         </div>
+
+
+
+        
+            
+            
+            
     </footer>
 </body>
 </html>
