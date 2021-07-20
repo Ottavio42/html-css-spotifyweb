@@ -108,6 +108,23 @@ aside h3{
 .user{
     padding-top: 5px;
 }
+.green-line::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 4px;
+    height: 100%;
+    background-color: #ADFF2F;
+} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 4px;
+    height: 100%;
+    background-color: #ADFF2F;
+}
     /* MAIN-BOX */
 .main-box{
 
